@@ -46,3 +46,9 @@ UPDATE usuarios set celular = "123456666" WHERE id > 2;
 UPDATE usuarios set clave = "contra123" WHERE id BETWEEN 1 AND 3;
 
 -- Delete
+
+DELETE FROM usuarios WHERE id = 1;
+
+DELETE FROM usuarios WHERE id BETWEEN 3 AND 4;
+
+DELETE FROM usuarios WHERE id < 4;
