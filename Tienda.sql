@@ -25,6 +25,18 @@ INSERT INTO usuarios values (4, "abril", "diaz", "123456786", "abril@yahoo.com",
 
 -- Read
 
+SELECT * FROM usuarios;
+
+SELECT * FROM usuarios WHERE apellido = "lopez";
+
+SELECT nombre, apellido FROM usuarios WHERE celular <> "123456789";
+
+SELECT COUNT(apellido) FROM usuarios;
+
+SELECT id, nombre, correo FROM usuarios WHERE correo LIKE "%yahoo%";
+
+SELECT nombre, apellido FROM usuarios WHERE id BETWEEN 2 and 4;
+
 -- Update
 
 -- Delete
