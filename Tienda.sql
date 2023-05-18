@@ -39,4 +39,10 @@ SELECT nombre, apellido FROM usuarios WHERE id BETWEEN 2 and 4;
 
 -- Update
 
+UPDATE usuarios SET clave = "123asd" WHERE id = 1;
+
+UPDATE usuarios set celular = "123456666" WHERE id > 2;
+
+UPDATE usuarios set clave = "contra123" WHERE id BETWEEN 1 AND 3;
+
 -- Delete
